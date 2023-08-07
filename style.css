@@ -1,0 +1,240 @@
+/*RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: auto;
+
+}
+/* *********** */
+/* FONTES */
+@font-face{
+    font-family: 'OpenSans Regular';
+    src: url(font/OpenSans-Regular.ttf);
+}
+@font-face{
+    font-family: 'OpenSans Bold';
+    src: url(font/OpenSans-Bold.ttf);
+}
+
+@font-face{
+    font-family:'Poppins Bold';
+    src: url(Font/OpenSans-Regular.ttf);
+}
+@font-face{ 
+    font-family: 'poppins regular';
+    src: url(font/Poppins-Regular.ttf);
+
+}
+@font-face{
+    font-family: 'Roboto regular';
+    src: url(VitralArte-main/VitralArte-main/Font/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: 'Roboto Bold';
+    src: url(VitralArte-main/VitralArte-main/Font/Roboto-Bold.ttf);
+}
+/* OPENSANS REGULAR, POPPINS BOLD, POPPINS REGULAR, ROBOTO BOLD, ROBOTO REGULAR, OPENSANS BOLD */
+
+/* ************** */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+}
+
+/* CONTATO */
+.contato{
+    background-color: #106eea ;
+    
+}
+.contato .container{
+    justify-content: flex-start;
+    height: 35px;
+}
+.contato .container a{
+    font: 500 30px 'OpenSans Regular';
+    color: white;
+    margin-right: 40px;
+}
+/* HEADER */
+.logo .nome{
+    font: 700 40px 'Poppins Bold';
+
+}
+.menu{
+    font: 500 20px 'OpenSans Regular';
+    color: black;
+    margin-left: 20px;
+}
+/* INICIO */
+.inicio{
+    background-image: url(VitralArte-main/VitralArte-main/Img/Vitral.png);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inicio .container{
+    justify-content: flex-end;
+    height: 400px;
+}
+.titulo-inicio{
+    font: 700 50px 'Poppins Bold';
+}
+.titulo{
+    font: 700 30px 'Roboto Bold';
+    color: black;
+
+}
+span{
+color: #106eea;
+}
+    color: #106eea;
+
+
+/* TEXTO */
+.texto{
+    font: 500 20px 'OpenSans Regular';
+}
+/*SOBRE NOS*/
+.CONTEUDO{
+    text-align: center;
+}
+.sobreNos .imagem img{
+    width: 500px ;
+}
+.sobreNos .conteudo .texto{
+    text-align: justify;
+}
+.sobreNos .conteudo{
+    margin-right: 100px;
+}
+
+/*INFOS*/ 
+.infos .quadrados .quadrado img{
+    width: 100px;
+}
+.infos .quadrados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.quadrado{
+    background-color: #f1f6fe;
+    border: 1px solid #8CA9CE;
+    border-radius: 7px;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 0 20px;
+    width: 230px;
+}
+
+/*DIVISAO*/
+.divisao{
+    background-color: #1150A3;
+    height: 3px;
+}
+/*SERVICOS*/
+.servicos .container{
+    flex-direction: column;
+}
+.servico{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.servico .servico-titulo{
+    font: 700 24px 'Roboto Bold';
+    text-align: center;
+}
+.servico .servico-nome{
+    border: 2px solid #8ca9ce;
+    width: 275px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+/* EQUIPE */
+.equipe .container{
+    flex-direction: column;
+}
+.equipe .pessoas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.equipe .pessoas .pessoa{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 25px;
+}
+.equipe .conteudo .texto{
+    text-align: justify;
+}
+/* FORMULARIO */
+.formulario .container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.endereco{
+    width: 200px;
+    border: 3px solid #1150A3;
+    height: 350px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 20px;
+    border: 10px;
+}
+input{
+    height: 60px;
+    background-color: gainsboro;
+    margin-bottom: 15px;
+    border: 7px;
+    padding: 5px 8px;
+}
+textarea{
+    background-color: gainsboro;
+    margin-bottom: 15px;
+    border: 7px;
+    padding: 5px 8px;
+}
+.form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: #106eea;
+    color: white;
+    font: 700 20px 'Roboto Bold';
+    width: 300px;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin: 0 60px;
+}
+.informacoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main section, 
+main .conteudo,
+.divisao{
+    margin-bottom: 80px;
+    
+}
